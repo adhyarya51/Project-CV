@@ -1,0 +1,2 @@
+https://huggingface.co/spaces/adhyarya51/ComputerVisionBeras
+https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset
