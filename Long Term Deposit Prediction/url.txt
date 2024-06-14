@@ -1,0 +1,3 @@
+./bank.csv
+https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset
+https://huggingface.co/spaces/adhyarya51/PrediksiDeposit
