@@ -1,81 +1,26 @@
 Dataset : [Credit-Card](./Adhy_Arya.csv)  
-Object  : Penggambaran Kartu Kredit konsep clustering data dengan menggunakan Scikit-Learn 
+Object  : Credit Card depiction of data clustering concept using Scikit-Learn 
 
-### Problem Statement : 
+## Problem Statement ##
+Analyze and cluster credit card holders based on their transaction data to understand customer segmentation and behavior.
 
-Pengelompokan(cluster) dengan melihat sebaran data guna memahami tingkat nasabah pemegang kartu kredit.
+## Background
+The dataset comprises approximately 4,475 records containing information on purchases, credit limits, payments, and balances for credit card accounts. The goal is to apply clustering methods to discern the distribution and characteristics of different customer groups. This analysis will help in understanding customer behavior and improving credit card product offerings.
 
-### Latar Belakang
+## Analysis
+The analysis of balance and balance frequency revealed four distinct clusters. Cluster 0 consists of customers with high balances and purchase frequency, who make frequent installments but do not often update their balances. Cluster 1 is characterized by customers with low balances, purchase frequency, and installments, but who frequently update their balances. Cluster 2 includes customers with low purchasing power and infrequent balance updates, while Cluster 3 has customers with low purchasing power but who frequently update their balances.
 
-Data sebaran kartu kredit dengan total data kurang lebih 4475 data memiliki informasi tentang pembelian, limit kredit, pembayaran, dan balance setiap akun. Maka dari itu diperlukannya metode pengelompokan (cluster), tujuan pengelompokan adalah memudahkan saya untuk melihat bagaimana bentuk sebaran nasabah pada kartu kredit tersebut. Saya ingin melihat bagaimana sifat - sifat dari setiap kelompok(cluster) untuk mampu melakukan proses deskripsi pada produk kredit saat ini.
+When clustering by purchases and payments, it was observed that most customers belong to Cluster 3, with purchase amounts ranging from 3,361 to 41,000. Cluster 0 rarely makes purchases, while Clusters 1 and 2 exhibit low activity in making purchases. This led to the conclusion that Clusters 0 and 3 show advantageous behaviors: Cluster 0 has customers with high payments but low purchases, and Cluster 3 has customers with a high spending rate.
 
-### Overal Analysis
+Further clustering based on credit limits and installment purchases indicated that Cluster 0 has a credit limit ranging from 0 to 10,000, with normal limits but rarely makes purchases. Cluster 1 has a low credit limit but still makes purchases ranging from 1,000 to 2,000. The distribution for Cluster 2 is uncertain, whereas Cluster 3 has a normal to high credit limit and high purchases.
 
-**Balance and Balance Frequency**
+In terms of balance and purchases, Cluster 0 customers generally have balances but do not make purchases. Cluster 1 has some customers with low balances and purchasing power. Cluster 2 has few balances and low purchasing power. Cluster 3 customers mostly have balances and high purchasing power, frequently updating their balances.
 
-**Observasi** : 
+An examination of transaction distribution found that Cluster 3 had a higher percentage of full payment transactions, while Cluster 2 had more purchase transactions. The scatter plot analysis showed that Cluster 0's purchase transactions range from 0 to 25 with a percentage variation from 0 to 0.8. Cluster 1's purchase transactions fall between 0 and 50 with a percentage around 0 to 1. Cluster 2 exhibited a wider distribution, with purchase transactions ranging from 0 to 350 and a percentage from 0 to 1. Cluster 3 had purchase transactions between 0 and 50 with a percentage distribution from 0.1 to 0.9.
 
-visualisasi dilakukan dengan 2D bahwa ditemukan beberapa informasi : 
+When clustering by purchases and credit limit, Cluster 0 mainly includes customers with credit limits above 3,200 and purchases below 5,000, with a tenure of 12. Cluster 1 has similar characteristics to Cluster 0. Cluster 3 includes customers who make purchases ranging from 300 to 2,000 with credit limits from 1,000 to 15,000, while Cluster 2 includes customers making purchases from 1,500 to above 10,000 with varied credit limits above 6,000. This indicates that most customers can make purchases above 1,500 with varying credit limits.
 
-- total cluster ada empat dari 0 sampai dengan 3 
-- untuk cluster 0 nasabah mayoritas memiliki saldo, frekuensi pembelian, serta cicilan yang tinggi, namun tidak melakukan pembahuruan
-- cluster 1 dengan saldo, frekuensi pembelian, serta cicilan rendah, tetapi melakukan pembahuruan terbaru dalam saldo
-- cluster 2 hampir keseluruhan nasabah memiliki daya beli rendah, dan tidak melakukan pembahuruan terbaru, dan 
-- cluster 3 memiliki daya beli rendah, tetapi selalu melakukan pembahuruan saldo nasabah.
-
-**Clustering Purchase and Payments**
-
-Mayoritas keseluruhan nasabah berada pada cluster no. 3 dengan melakukan pembelian paling rendah sebesar 3361 sampai 41000. Cluster 0 jarang melakukan pembelian, dan cluster 1, dan 2 tidak banyak melakukan aktifitas dalam melakukan pembelian. 
-
-**Kesimpulan Observasi**:  
-Dapat disimpulkan keunggulan cluster ada pada cluster 0 , dan 3 dimana ada nasabah tidak melakukan pembelian, tetapi pembayaran tinggi, dan nasabah melakukan pembelian, tapi tidak tinggi. Disimpulkan mayoritas nasabah memiliki tinggkat belanja besar.
-
-
-**Clustering Credit Limit and Installment Purchases**
-
-Hasil clustering menyimpulkan bahwa : 
-- clustering 0 memiliki limit dari 0 sampai dengan 10k, limit normal, tetapi jarang melakukan pembelian 
-- clustering 1 memiliki limit rendah, tapi masih melakukan pembelian dari 1000 sampai 2000.
-- clustering 2 tidak terbentuk, tetapi sebaran tidak tertentu 
-- clustering 3 menunjukan sebaran limit normal ke tinggi, serta pembelian termasuk tinggi. 
-
-**Cluster Balance and Purchases**
-
-Kesimpulan clustering ditemukan : 
-
-- cluster 0 mayoritas memiliki saldo tetapi tidak melakukan pembelian 
-- cluster 1 sebagian memiliki saldo dan daya beli rendah, dan sebagian memiliki saldo rendah, dan memiliki daya beli rendah
-- cluster 2 tidak memiliki saldo sedikit , dan tidak melakukan pembelian 
-- cluster 3 mayoritas memiliki saldo serta daya beli tinggi, atau pembelian tinggi.
-
-**Clustering sebaran Transaksi**
-
-Kesimpulan data : 
-- Prc full payment dengan cluster 3 lebih banyak dibandingkan cluster lainnnya
-- Sedangkan, purchase trx untuk cluster 2 lebih banyak dari yang lainnya
-
-berdasarkan scatter plot 
-
-- cluster 0 mayoritas range purchase trx kurang lebih dari 0 sampai dengan 25, dan persentase variasi dari 0 sampai 0.8
-- cluster 1 mayoritas melakukan grouping purchase trx antara 0 - 50, dan persentasi sekitar 0 s/d 1 
-- cluster 2 memiliki sebaran mmayoritas lebihh luas dari cluster lainnya purchase trx kurang lebih dari 0 s/d 350, dan persentasi dari 0 s/d 1, 
-- cluster 3 membentuk grouping purchase trx antara 0 - 50, dan sebaran persentase dari 0.1 s/d 0.9.
-
-
-**Clustering Purchases and Credit Limit**
-
-berdasarkan hasil observasi dari scatter plot : 
-
-- Cluster 0 dengan mayoritas limit kredit diatas 3200, dan pembelian dibawah 5000, serta tenure di angka 12
-- cluster 1 memiliki ciri - ciri sama dengan cluster 0 
-- sedangkan, cluster 3 mayoritas melakuan pembelian 300 s/d 2000, dengan limit kredit sebesar 1000 sampai 15000, dan
-- cluster 2 menjadi mayoritas melakukan pembelian dari 1500 sampai diatas 10000,dengan limit kredit bervariasi yaitu di 6000 keatas.
-
-dapat disimpulkan mayoritas nasabah masih dapat melakukan pembelian diatas 1500 dengan limit kredit yang berbeda.
-
-**Total Cluster**
-
-dilakukan penghitungan keseluruhan data dengan mengetahui sebaran cluster keseluruhan. Ditemukan bahwa, cluster 1 lebih unggul, dan diikuti olehh cluster 3, 0 dan 2.
+In conclusion, the overall cluster distribution shows that Cluster 1 has the highest number of customers, followed by Clusters 3, 0, and 2.
 
 
 
