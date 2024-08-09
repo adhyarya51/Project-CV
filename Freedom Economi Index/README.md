@@ -1,55 +1,54 @@
 
-Objective   : saya akan melakukan analisis tentang "freedom economic index" dengan melakukan perbandingan, apa yang terjadi pada setiap negara.
+Objective   : I will conduct an analysis of the Economic Freedom Index by comparing the outcomes and trends observed in different countries.
 
 Dataset : Freedom Economic Index , "([Url](https://www.kaggle.com/datasets/mlippo/freedom-economic-index/data?select=freedom_index.csv))" 
 
 Link Tablue : https://public.tableau.com/app/profile/adhy.arya.hendrata/viz/P1W1D4PM_17122396488970/Dashboard1?publish=yes
 
-**Topik Permasalahan**
 
-- melakukan analisis ekonomi indeks negara dengan empat kategori terhadap setiap negara.
+Topical Issues:
 
-**Description :**
+Conducts an economic analysis of country indices using four key categories.
+Description:
 
-    Kebebasan ekonomi menjadi fundamental hak untuk setiap manusia mengontrol atau memiliki lapangan kerja, dan properti. Pembahasan ekonomi di kebebasan masyarakat, setiap individu bebas untuk memilih pekerjaan, produksi, konsumsi, dan melakukan investasi dalam bentuk apapun. kebebasan ekonomi dalam bermasyarakat, pemerintah yang menciptakan lapangan kerja, kapital, dan industri bergerak bebas. 
-    
-    Perbedaan ekonomi dunia setiap tahun juga berbeda jauh dengan yang terjadi pada tahun 2024, salah satunya pengaruh konflik, politik antar negara memberikan perubahan jelas pada tahun ini. The Heritage Foundation (2023) menjelaskan untuk melakukan pengukuran kebebasan ekonomi ada empat yaitu : rule of law, government size, regulatory efficiency, dan open markets.
+Economic freedom is a fundamental right that allows individuals to control their employment and property. In a society with economic freedom, individuals are free to choose their work, production, consumption, and investments. This environment encourages governments to create jobs, facilitate the free movement of capital, and allow industries to operate freely. However, global economic conditions fluctuate annually, and 2024 is particularly shaped by conflicts and political tensions between countries. According to the Heritage Foundation (2023), economic freedom is measured by four categories: rule of law, government size, regulatory efficiency, and open markets. My analysis will focus on Indonesia, examining its economic condition in 2024 through these categories to understand the broader implications for the country's economic freedom.
 
-    Indonesia menjadi negara yang bersangkutan dalam pendataan ekonomi indeks. bagaimana kondisi negara Indonesia ditahun 2024, saya akan melakukan analisis kepada negara, dan juga hasil analisis khususnya negara Indonesia.
-    
+**Methods: SMART Analysis
 
-metode : **SMART**
+Specific: The research will focus on analyzing country index data to assess economic freedom, concentrating on specific categories of measurement.
 
-**Specific** : melakukan analisis penelitian terhadap data indeks negara, memiliki fokus sebagai analisis.
+Measurable: The analysis will evaluate economic freedom using four key indicators: rule of law, government size, regulatory efficiency, and open markets. A specific country will be used as an example to illustrate the measurement process.
 
-**Measurable** : pengukuran "rule of law, government size, reglatory efficiency, dan open market", serta mengambil satu contoh negara sebagai contoh pengukuran situasi.
+Achievable: The analysis aims to identify economic conditions through these four categories, providing clear insights that can address the issues identified.
 
-**Achievable** : permasalahan dapat diselesaikan ketika bisa dilakukan proses identifikasi melakui keempat kategori.
+Relevant: Understanding each country's economic situation is crucial for policymakers, academics, journalists, business leaders, and investors. This analysis offers foundational insights for economic development and decision-making.
 
-**Relevant** : pemahaman situasi ekonomi pada setiap negara adalah hal penting sebagai analisis data, pemangku kebijakan, akademisi, jurnalis, serta pembisnis, dan investor untuk mengetahui gambaran besar kondisi negara. hal tersebut akan menjadi fundamental untuk pengembangan ekonomi.
+Time-Bound: The analysis will be completed within a set timeframe, providing timely and valuable insights for policymakers to inform their decision-making processes.
 
-**Time - Bound** : penyelesaian analisis dalam waktu telah ditentukan, serta memberikan pandangan baru kepada pemangku kebijakan dalam menentukan pengambilan keputusan. 
+SMART Summary: The economic index analysis utilizes four key measurements to guide decision-making for companies and other stakeholders.
 
 **SMART** : Analisis indeks ekonomi menggunakan empat pengukuran guna menentukan pengambilan keputusan kepada pihak perusahaan.
 
  Pengukuran kebebasan ekonomi memiliki empat kategori yaitu : 
 
-    - Rule of law (property right, government integrity, judicial effectiveness) "rata2"
+    - Rule of law (property right, government integrity, judicial effectiveness) "average"
 
-    - Government Size (government spending, tax burden, fiscal health) "rata2"
+    - Government Size (government spending, tax burden, fiscal health) "average"
 
-    - Regulatory Efficiency (business freedom, labor freedom, monetary freedom) "rata2"
+    - Regulatory Efficiency (business freedom, labor freedom, monetary freedom) "average"
 
-    - Open Markets (trade freedom, investment freedom, financial freedom) "Rata2"
+    - Open Markets (trade freedom, investment freedom, financial freedom) "average"
 
-- Bagaimana urutan overall score based on negara ? (top 5)
-- pengukuran 5 negara terendah 
-- region mana yang memiliki score tertinggi 
-- pengukuran setiap rule of law based on negara 
-- pengukuran setiap government size based on negara
-- pengukuran setiap negara regulatory efficiency based on negara
-- pengukuran setiap negara open markets based on negara
-- pengukuran negara ASEAN
+The analysis will include:
+
+Ranking the top 5 countries based on their overall economic freedom scores.
+Identifying the 5 countries with the lowest scores.
+Determining which region has the highest average score.
+Measuring the rule of law for each country.
+Measuring government size for each country.
+Measuring regulatory efficiency for each country.
+Measuring open markets for each country.
+Analyzing the economic freedom of ASEAN countries specifically.    
 
 ### Output 
 

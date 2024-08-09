@@ -1,12 +1,11 @@
-Object : Deployment supervised data dengan memprediksi pola nasabah.
+Objective
+Deploy supervised learning models to predict customer behavior patterns for targeted marketing campaigns.
 
-### Problem Statement : 
+Problem Statement
+The goal is to predict whether a prospective customer will subscribe to a deposit product based on phone call interactions. Accurate prediction will aid in the formulation of effective marketing strategies by identifying patterns in customer behavior.
 
-Penentuan prediksi model ditentukan dengan analisa untuk mengetahui pola klien.
-
-### Latar Belakang : 
-
-Data yang berasal dari salah satu institusi bank asal portugis, ingin membuat sebuah kampanye yang berdasarkan dari panggilan telepon. Saya dan tim pemasaran ingin melakukan prediksi terhadap calon nasabah akan melakukan langganan atau tidak dengan menghubungin calon nasabah melalui telepon. Namun tim ingin mengetahui nasabah yang dihubungin akan berpotensi untuk mendaftar/berlangganan deposito, atau tidak. Maka dari itu pemasaran analisis mencoba prediksi dengan model machine learning dengan analisa pola data yang akan membantu tim dalam menentukan strategi. Berikut informasi detail pada variabel yang telah diketahui.
+Background
+The data provided comes from a Portuguese bank institution. The marketing team aims to develop a predictive model to assess the likelihood of a prospective customer subscribing to a deposit account after being contacted by phone. The objective is to use machine learning techniques to analyze customer data patterns and inform the team’s marketing strategies. The data includes various variables that will be examined to determine the best approach for predicting customer responses.
 
 | Column | Description |
 | --- | --- |
